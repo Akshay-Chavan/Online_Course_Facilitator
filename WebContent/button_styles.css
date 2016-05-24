@@ -1,0 +1,161 @@
+.myButton {
+	-moz-box-shadow: inset -2px -2px 5px -3px #4f2b4f;
+	-webkit-box-shadow: inset -2px -2px 5px -3px #4f2b4f;
+	box-shadow: inset -2px -2px 5px -3px #4f2b4f;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7ca0c4
+		), color-stop(1, #d9d6d9) );
+	background: -moz-linear-gradient(center top, #7ca0c4 5%, #d9d6d9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7ca0c4',
+		endColorstr='#d9d6d9' );
+	background-color: #7ca0c4;
+	-webkit-border-top-left-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-radius-topright: 0px;
+	border-top-right-radius: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-moz-border-radius-bottomright: 0px;
+	border-bottom-right-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-bottom-left-radius: 0px;
+	text-indent: 0px;
+	border: 2px solid #ffffff;
+	display: inline-block;
+	color: #071a38;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+	font-style: normal;
+	height: 32px;
+	line-height: 32px;
+	width: 143px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.myButton:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d9d6d9
+		), color-stop(1, #7ca0c4) );
+	background: -moz-linear-gradient(center top, #d9d6d9 5%, #7ca0c4 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d9d6d9',
+		endColorstr='#7ca0c4' );
+	background-color: #d9d6d9;
+}
+
+.myButton:active {
+	position: relative;
+	top: 1px;
+}
+
+.htmlText {
+	width: 150px;
+}
+
+.noticeText {
+	width: 300px;
+	height: 100px;
+}
+.lblerr {
+	width: 150px;
+	font-size: 20px;
+	color: red;
+}
+.plainText {
+	font-size: 20px;
+}
+.radioButton {
+	width: 20px;
+}
+
+.colHeight{
+	height: 60px;
+}
+
+.colHeightUser{
+	height: 30px;
+}
+
+.colHeightNotice{
+	height: 100px;
+}
+
+.combo {
+	background-color: white;
+	color: black;
+	height: 25px;
+	width: 200px;
+}
+
+
+.issueBookSelect {
+	background-color: white;
+	color: black;
+	height: 25px;
+	width: 400px;
+}
+
+.txtSearch {
+	height: 33px;
+	width: 200px;
+}
+
+.addTitle {
+	color: white;
+	font-size: 28px;
+	font-style: normal;
+	
+	font-size: 28px;
+}
+
+.homeBodyStyle {
+	background: url("img11.png") repeat scroll 0 0 transparent;
+}
+
+.loginMaster {
+	background-color: #23262B;
+	color:white;
+	position: absolute;
+	width: 1000px;
+	height: 700px;
+	margin-left: 167px;
+}
+
+.header {
+	background-color: black;
+	height: 100px;
+	margin-top: 22px;
+	width: 1000px;
+}
+
+.footer {
+	background-color: black;
+	height: 75px;
+	margin-top: 5px;
+	width: 1000px;
+}
+.logo {
+	margin-top: 5px;
+	margin-left: -30px;
+	position: absolute;
+	background-color: transparent;
+	width: 100px;
+	height: inherit;
+	position: absolute;
+}
+
+.headerRight {
+	background-color: black;
+	height: 100px;
+	margin-left: 145px;
+	position: absolute;
+	width: 855px;
+}
+.headerLabel {
+	margin-top:'30px';
+	color: white;
+	font-family: 'Times New Roman';
+	font-size: 36px;
+	margin-left: 10px;
+}

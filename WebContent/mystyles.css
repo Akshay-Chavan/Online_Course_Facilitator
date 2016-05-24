@@ -1,0 +1,151 @@
+@CHARSET "UTF-8";
+
+.homeBodyStyle {
+	background: url("img11.png") repeat scroll 0 0 transparent;
+}
+
+.leftMaster {
+	background-color: white;
+	width: 215px;
+	position: absolute;
+	height: 700px;
+}
+
+.rightMaster {
+	background-color: white;
+	margin-left: 219px;
+	position: absolute;
+	width: 781px;
+	height: 700px;
+}
+
+.loginMaster {
+	background-color: #23262B;
+	color:white;
+	position: absolute;
+	width: 1000px;
+	height: 700px;
+	margin-left: 170px;
+}
+
+.header {
+	background-color: black;
+	height: 100px;
+	margin-top: 22px;
+	width: 1000px;
+}
+
+.footer {
+	background-color: black;
+	height: 75px;
+	margin-top: 5px;
+	width: 1000px;
+}
+
+.container {
+	background-color: transparent;
+	height: 700px;
+	width: 1000px;
+	margin-top: 10px;
+}
+
+.moduleHeadings {
+	width: 195px;
+	height: 30px;
+	line-height: 30px;
+	font-size:18px;
+	background-color: black;
+	color: #FFFFFF;
+	margin-top: 10px;
+}
+
+.hlink {
+	background-color: gray;
+	height: 60px;
+	width: 175px;
+	font-size:18px;
+	line-height: 30px;
+	text-decoration: none;
+	display: block;
+	color: white;
+	margin-top: 10px;
+}
+
+.hlink:VISITED {
+	color: white;
+}
+
+.hlink:ACTIVE,.hlink:FOCUS,.hlink:HOVER {
+	color: red;
+}
+
+.logo {
+	margin-top: 5px;
+	margin-left: -30px;
+	position: absolute;
+	background-color: transparent;
+	width: 100px;
+	height: inherit;
+	position: absolute;
+}
+
+.headerRight {
+	background-color: black;
+	height: 100px;
+	margin-left: 145px;
+	position: absolute;
+	width: 855px;
+}
+
+.headerLabel {
+	margin-top:'30px';
+	color: white;
+	font-family: 'Times New Roman';
+	font-size: 36px;
+	margin-left: 10px;
+}
+
+.lblerr
+{
+	width:200px;
+	color: red;
+}
+
+
+.addTitle {
+	color: white;
+	font-size: 28px;
+	font-style: normal;
+	
+	font-size: 28px;
+}
+
+.addInfo {
+	color: white;
+	font-size: 18px;
+	font-style: normal;
+	margin-left: 10px;
+}
+
+table,th {
+	background-color: gray;
+	color: white; border : 1px solid black;
+	border-collapse: collapse;
+	/* border: 1px solid black; */
+}
+
+table,td {
+	
+	background-color: white;
+	color: #23262B; 
+	border : 1px solid gray;
+	/* border-collapse: collapse; */
+	/* border: 1px solid black; */
+}
+
+
+<a href="#" class="myButton">green</a>
+
+
+
+
